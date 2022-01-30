@@ -15,16 +15,17 @@ public class SwapOfTwoNumber {
 	public static void main(String[] args) {
 		int a;
 		int b;
-		Scanner s = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Enter value of a : ");
-		a = s.nextInt();
+		a = sc.nextInt();
 
 		System.out.println("Enter value of b : ");
-		b = s.nextInt();
+		b = sc.nextInt();
 
 		values(a,b);
-
+		
+		sc.close();
 	}
 
 }

@@ -14,8 +14,8 @@ public class QuotientRemainder {
 		int quotient = divident / divisor;
 		int remainder = divident % divisor;
 		
-		System.out.println("quotient = " + quotient);
-		System.out.println("remainder = " + remainder);
+		System.out.println("Quotient = " + quotient);
+		System.out.println("Remainder = " + remainder);
 
 	}
 
